@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Receitas da Gabi | Receitas artesanais em vídeo</title>
+  <meta name="description" content="Receitas artesanais da Gabi, com ingredientes, modo de preparo e vídeos passo a passo.">
+  <meta name="theme-color" content="#9b315b">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css">
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"WebSite","name":"Receitas da Gabi","url":"https://receitasdagabi.com.br","potentialAction":{"@type":"SearchAction","target":"https://receitasdagabi.com.br/?busca={search_term_string}","query-input":"required name=search_term_string"}}
+  </script>
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="#inicio" aria-label="Receitas da Gabi - início">
+    <span class="brand-mark">G</span>
+    <span><strong>Receitas da Gabi</strong><small>Carinho em cada receita</small></span>
+  </a>
+  <button class="menu-btn" aria-label="Abrir menu" aria-expanded="false">☰</button>
+  <nav class="nav">
+    <a href="#inicio">Início</a><a href="#receitas">Receitas</a><a href="#categorias">Categorias</a><a href="#confeitaria">Confeitaria</a><a href="#sobre">Sobre</a>
+  </nav>
+</header>
+<main>
+<section class="hero" id="inicio">
+  <div class="hero-content">
+    <span class="eyebrow">Receitas testadas e explicadas em vídeo</span>
+    <h1>Receitas artesanais para adoçar bons momentos</h1>
+    <p>Ingredientes, modo de preparo e o passo a passo da Gabi, tudo organizado em um só lugar.</p>
+    <div class="hero-actions"><a class="btn primary" href="#receitas">Ver receitas</a><a class="btn secondary" href="https://youtube.com/@confeitariadagabi" target="_blank" rel="noopener">Canal no YouTube</a></div>
+  </div>
+  <div class="hero-card"><div class="cake-art">🎂</div><b>Da cozinha da Gabi</b><span>Receitas simples, afetivas e cheias de sabor.</span></div>
+</section>
+<section class="search-wrap" aria-label="Busca de receitas">
+  <input id="search" type="search" placeholder="Busque por bolo, biscoito, chocolate..." aria-label="Buscar receitas">
+  <button id="searchBtn">Buscar</button>
+</section>
+<section class="section" id="categorias">
+  <div class="section-head"><div><span class="eyebrow">Encontre mais rápido</span><h2>Categorias</h2></div></div>
+  <div class="chips" id="categoryChips"></div>
+</section>
+<section class="section" id="receitas">
+  <div class="section-head"><div><span class="eyebrow">Passo a passo em vídeo</span><h2>Nossas receitas</h2></div><span id="count"></span></div>
+  <div class="recipe-grid" id="recipeGrid"></div>
+  <div class="empty" id="empty" hidden>Nenhuma receita encontrada.</div>
+</section>
+<section class="business" id="confeitaria">
+  <div><span class="eyebrow">Feito artesanalmente em Timbó</span><h2>Confeitaria da Gabi</h2><p>Além de compartilhar receitas, a Gabi produz delícias artesanais para encomendas e datas especiais.</p><div class="hero-actions"><a class="btn primary" href="https://instagram.com/confeitariadagabitimbo" target="_blank" rel="noopener">Ver Instagram</a><a class="btn secondary" href="https://instagram.com/confeitariadagabitimbo" target="_blank" rel="noopener">Fazer encomenda pelo Instagram</a></div></div>
+  <div class="business-badge">@confeitariadagabitimbo</div>
+</section>
+<section class="section about" id="sobre">
+  <div class="about-photo">👩‍🍳</div><div><span class="eyebrow">Quem está por trás das receitas</span><h2>Sobre a Gabi</h2><p>A Gabi une formação em gastronomia, experiência na confeitaria artesanal e aquele cuidado de receita feita em casa. No site, cada vídeo ganha uma versão escrita, clara e fácil de acompanhar.</p></div>
+</section>
+<section class="newsletter" id="contato"><h2>Receitas, encomendas e novidades</h2><p>Veja as novidades e fale diretamente com a Confeitaria da Gabi pelo Instagram.</p><div class="hero-actions"><a class="btn light" href="https://youtube.com/@confeitariadagabi" target="_blank" rel="noopener">Inscrever-se no YouTube</a><a class="btn outline-light" href="https://instagram.com/confeitariadagabitimbo" target="_blank" rel="noopener">Seguir no Instagram</a></div></section>
+</main>
+<footer><div><strong>Receitas da Gabi</strong><p>Receitas artesanais em vídeo.</p></div><div><a href="https://receitasdagabi.com.br">receitasdagabi.com.br</a><br><a href="https://instagram.com/confeitariadagabitimbo">@confeitariadagabitimbo</a></div><small>© <span id="year"></span> Receitas da Gabi.</small></footer>
+<dialog id="recipeDialog"><button class="close" aria-label="Fechar">×</button><article id="recipeContent"></article></dialog>
+<script src="assets/recipes.js"></script><script src="assets/app.js"></script>
+</body></html>
