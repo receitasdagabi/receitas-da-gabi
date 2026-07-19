@@ -1,17 +1,16 @@
-RECEITAS DA GABI — PACOTE DO SITE
+RECEITAS DA GABI — VERSÃO 2
 
-Domínio: receitasdagabi.com.br
-YouTube: https://youtube.com/@confeitariadagabi
-Instagram e encomendas: https://instagram.com/confeitariadagabitimbo
+PUBLICAÇÃO:
+1. Extraia este arquivo ZIP.
+2. Envie TODO o conteúdo da pasta receitas-da-gabi-v2 para a raiz do repositório GitHub.
+3. Faça commit das alterações.
+4. O Cloudflare Pages publicará automaticamente.
 
-PUBLICAÇÃO RECOMENDADA
-1. Crie um projeto gratuito no Cloudflare Pages.
-2. Envie o conteúdo desta pasta mantendo index.html e a pasta assets.
-3. Adicione receitasdagabi.com.br e www.receitasdagabi.com.br como domínios personalizados.
-4. Siga os registros DNS indicados pelo Cloudflare no painel do Registro.br.
+OBSERVAÇÃO:
+As páginas das seis primeiras receitas usam o vídeo oficial como fonte principal para ingredientes e quantidades, porque essas listas não estavam presentes no pacote de arquivos disponível nesta etapa. As quatro receitas mais recentes já estão completas no site.
 
-RECEITAS
-Os cartões estão em assets/recipes.js. Para cada receita, informe título, categoria, descrição, ID do vídeo, ingredientes e preparo. O restante do site se atualiza automaticamente.
+DOMÍNIO:
+Confirme no Cloudflare Pages que receitasdagabi.com.br está configurado como domínio personalizado principal.
 
-OBSERVAÇÃO
-O botão de encomendas direciona para o Instagram @confeitariadagabitimbo.
+SEO:
+Depois da publicação, envie https://receitasdagabi.com.br/sitemap.xml ao Google Search Console.

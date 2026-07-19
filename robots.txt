@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://receitasdagabi.com.br/sitemap.xml
